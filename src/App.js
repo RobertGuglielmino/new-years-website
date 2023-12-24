@@ -22,7 +22,7 @@ function App() {
   const [havePlayed, setHavePlayed] = useState(false);
   const [playSound] = useSound(conquer);
 
-  const goodCoupon = "CONQUERYOURNEWYEARSRESOLUTIONNOMATTERWHAT";
+  const goodCoupon = "CONQUERYOURNEWYEARSRESOLUTIONNOW";
 
   const pic = (Math.random() < 0.1) ? successCat : successPic;
   
